@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body{
+    background-color: rgb(123, 84, 37);
+}
+
+#gameContainer{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#gameBoard{
+    height: 500px;
+    width: 500px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    background-color: rgb(220, 237, 96);
+}
+
+#scoreText{
+    font-size: 60px;
+}
+
+#resetBtn{
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 12px;
+    background-color: rgb(197, 159, 9);
+    color: rgb(96, 61, 8);
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+}
+    
